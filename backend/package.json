@@ -1,0 +1,50 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsup",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "canvas": "^3.2.3",
+    "cookie": "^1.1.1",
+    "cookie-parser": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "mongoose": "latest",
+    "morgan": "latest",
+    "nodemailer": "^8.0.5",
+    "nodemailer-express-handlebars": "^7.0.0",
+    "pdfkit": "^0.18.0",
+    "pptxgenjs": "^4.0.1",
+    "socket.io": "^4.8.3",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "latest",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/morgan": "latest",
+    "@types/node": "latest",
+    "@types/nodemailer": "^8.0.0",
+    "@types/nodemailer-express-handlebars": "^4.0.6",
+    "@types/pdfkit": "^0.17.5",
+    "nodemon": "latest",
+    "ts-node": "latest",
+    "tsup": "latest",
+    "tsx": "^4.21.0",
+    "typescript": "latest"
+  }
+}
